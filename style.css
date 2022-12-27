@@ -41,6 +41,10 @@ section{
 }
 p{
   color: var(--LightGrey);
+  font-size: 0.9rem;
+}
+h2{
+  margin: 10px 0;
 }
 /*
 =================================================
@@ -98,6 +102,19 @@ thankYou section Styles
 .thankYou{
     display: none;
 }
+.thankYou{
+  text-align: center;
+}
+.thank-selection{
+  border-radius: 20px;
+ background-color: var(--AlphaBlue);
+ line-height: 2.2;
+ width: 65%;
+ margin: auto;
+}
+.thank-selection p{
+  color: var(--Orange);
+}
 
 /*
 =================================================
@@ -107,8 +124,14 @@ footer section Styles
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: var(--White);
   }
 
   .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--LightGrey);
+  }
+  @media (max-width:400px) {
+    section{
+      width: 80%;
+    }
   }
